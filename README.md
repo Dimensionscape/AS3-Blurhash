@@ -19,7 +19,7 @@ var image:Image = new Image(Texture.fromBitmapData(placeHolderBitmapData));
 addChild(image);
 ```
 
-
+![Image of example usage](https://i.gyazo.com/3763b3064077d8b5e08b9631252c18f1.gif)
 
 Credit to Leonidas for motivating me to writing this small blurhash decoder in AS3.
 
