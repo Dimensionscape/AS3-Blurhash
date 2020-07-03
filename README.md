@@ -1,6 +1,6 @@
 # AS3-Blurhash
 
-AS3-Blurhash Decoder for AS3 allows you to integrate image placeholders in your apps when the original take too long to load. Simply use one of the backend encoder libraries from https://blurha.sh/ and pass compact, Base83 encoded strings to the client very quickly in order to render Bitmap placeholders while the actual image is loading.
+AS3-Blurhash Decoder for AS3 and Adobe AIR allows you to integrate image placeholders in your apps when the original take too long to load. Simply use one of the backend encoder libraries from https://blurha.sh/ and pass compact, Base83 encoded strings to the client very quickly in order to render Bitmap placeholders while the actual image is loading.
 ![Image of example](https://cdn.discordapp.com/attachments/310222402674229249/728483366097125386/unknown.png)
 
 Example usage:
@@ -10,6 +10,6 @@ var placeHolderBitmapData: BitmapData = Decoder.decode("LKO2?V%2Tw=w]~RBVZRi};RP
 addChild(new Bitmap(placeHolderBitmapData));
 ```
 
-Credit to Leonidas for motivating me to writing this small blurhash decoder in as3.
+Credit to Leonidas for motivating me to writing this small blurhash decoder in AS3.
 
 Enjoy!
