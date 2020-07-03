@@ -9,3 +9,5 @@ Example usage:
 var placeHolderBitmapData: BitmapData = Decoder.decode("LKO2?V%2Tw=w]~RBVZRi};RPxuwH", 400, 200);
 addChild(new Bitmap(placeHolderBitmapData));
 ```
+
+Credit to Leonidas for motivating me to writing this decoder.
