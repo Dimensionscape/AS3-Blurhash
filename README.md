@@ -11,6 +11,14 @@ var placeHolderBitmapData: BitmapData = Decoder.decode("LKO2?V%2Tw=w]~RBVZRi};RP
 addChild(new Bitmap(placeHolderBitmapData));
 ```
 
+Starling Usage:
+
+```actionscript
+var placeHolderBitmapData: BitmapData = Decoder.decode("LKO2?V%2Tw=w]~RBVZRi};RPxuwH", 400, 200);
+var image:Image = new Image(Texture.fromBitmapData(placeHolderBitmapData));
+addChild(image);
+```
+
 
 
 Credit to Leonidas for motivating me to writing this small blurhash decoder in AS3.
