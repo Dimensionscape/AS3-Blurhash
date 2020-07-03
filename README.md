@@ -10,4 +10,6 @@ var placeHolderBitmapData: BitmapData = Decoder.decode("LKO2?V%2Tw=w]~RBVZRi};RP
 addChild(new Bitmap(placeHolderBitmapData));
 ```
 
-Credit to Leonidas for motivating me to writing this decoder.
+Credit to Leonidas for motivating me to writing this small blurhash decoder in as3.
+
+Enjoy!
